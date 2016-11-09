@@ -31,6 +31,9 @@
       "url": "https://raw.githubusercontent.com/nathanpeck/exiftool/master/LICENSE"
     }
   ],
+  "dependencies": {
+    "dist-exiftool": "^10.25.0"
+  },
   "readmeFilename": "README.md",
   "scripts": {
     "test": "./node_modules/.bin/mocha -R spec -s 100 ./tests/test.js"
